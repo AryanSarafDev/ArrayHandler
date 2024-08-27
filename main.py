@@ -1,6 +1,8 @@
 import json
 import arraymod
 from flask import Flask, request
+from flask_session import Session
+
 
 app = Flask(__name__)
 send = list()
@@ -33,4 +35,4 @@ app.run()
 
 
 
-
+j
